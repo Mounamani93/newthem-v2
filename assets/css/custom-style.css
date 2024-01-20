@@ -1,0 +1,71 @@
+#home{
+    background: #fafbfd;
+}
+
+.breadcrumbSec{
+	height: 200px;
+    border-bottom: 1px solid #d5d6d7;
+    background-color: #e9ecef;
+    background-image: url('../img/gallery/breadcrumb-bgimage.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-blend-mode: darken;
+    background-position: top left;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+}
+.breadcrumbSec h1{
+	font-size: 28px;
+    text-align: center;
+    LINE-HEIGHT: 1.7;
+}
+.breadcrumbSec p{
+	line-height: 1.7;
+    color: #000;
+    font-size: 14px;
+    MARGIN: 0;
+}
+
+#customers img,
+#product img {
+  height: 95px;
+  width: 95px;
+}
+
+.portfolioImg {
+  height: 600px;
+  overflow: hidden;
+}
+
+#portfolioCarousel .carousel-inner .carousel-item.active,
+#portfolioCarousel .carousel-inner .carousel-item-next,
+#portfolioCarousel .carousel-inner .carousel-item-prev {
+  display: flex;
+}
+
+#portfolioCarousel .carousel-indicators {
+  bottom: -73px;
+}
+
+#portfolioCarousel .carousel-indicators [data-bs-target] {
+  background-color: #000;
+}
+
+main.main .navbarTop {
+  position: sticky;
+}
+.mapDetails .innerMapsec, .mapDetails .innerMapsec iframe {
+    height: 350px;
+}
+.leftSection p,.leftSection p a, .leftSection .locationIcon{
+    color: #000;
+    text-align: center;
+}
+.locationIcon{
+    font-size: 30px;
+    padding: 1em 0;
+}
