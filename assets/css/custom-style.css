@@ -1,33 +1,35 @@
-#home{
-    background: #fafbfd;
+#home {
+  background: #fafbfd;
 }
 
-.breadcrumbSec{
-	height: 200px;
-    border-bottom: 1px solid #d5d6d7;
-    background-color: #e9ecef;
-    background-image: url('../img/gallery/breadcrumb-bgimage.jpg');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-blend-mode: darken;
-    background-position: top left;
-    background-size: contain;
-    display: flex;
-    flex-direction: column;
-    align-content: center;
-    justify-content: center;
-    align-items: center;
+.breadcrumbSec {
+  height: 200px;
+  border-bottom: 1px solid #d5d6d7;
+  background-color: #e9ecef;
+  background-image: url('../img/gallery/breadcrumb-bgimage.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-blend-mode: darken;
+  background-position: top left;
+  background-size: contain;
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
 }
-.breadcrumbSec h1{
-	font-size: 28px;
-    text-align: center;
-    LINE-HEIGHT: 1.7;
+
+.breadcrumbSec h1 {
+  font-size: 28px;
+  text-align: center;
+  LINE-HEIGHT: 1.7;
 }
-.breadcrumbSec p{
-	line-height: 1.7;
-    color: #000;
-    font-size: 14px;
-    MARGIN: 0;
+
+.breadcrumbSec p {
+  line-height: 1.7;
+  color: #000;
+  font-size: 14px;
+  MARGIN: 0;
 }
 
 #customers img,
@@ -37,7 +39,7 @@
 }
 
 .portfolioImg {
-  height: 600px;
+  height: 300px;
   overflow: hidden;
 }
 
@@ -58,14 +60,163 @@
 main.main .navbarTop {
   position: sticky;
 }
+
 .mapDetails .innerMapsec, .mapDetails .innerMapsec iframe {
-    height: 350px;
+  height: 350px;
 }
-.leftSection p,.leftSection p a, .leftSection .locationIcon{
-    color: #000;
-    text-align: center;
+
+.leftSection p, .leftSection p a, .leftSection .locationIcon {
+  color: #000;
+  text-align: center;
 }
-.locationIcon{
-    font-size: 30px;
-    padding: 1em 0;
+
+.locationIcon {
+  font-size: 30px;
+  padding: 1em 0;
+}
+
+.whychooseusRts {
+  display: grid;
+  grid-template: repeat(2, 1fr)/repeat(2, 1fr);
+  gap: 15px;
+}
+
+.whychooseusRts img {
+  width: 60px;
+  text-align: center;
+  padding-bottom: 1em;
+}
+
+section {
+  padding: 4rem 0;
+}
+
+/* testimonialSection CSS */
+.testimonialSection h2 {
+  color: #333;
+  text-align: center;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+  position: relative;
+  margin: 25px 0 50px
+}
+
+.testimonialSection h2::after {
+  content: "";
+  width: 100px;
+  position: absolute;
+  margin: 0 auto;
+  height: 3px;
+  background: #ffdc12;
+  left: 0;
+  right: 0;
+  bottom: -10px
+}
+
+.testimonialSection  .carousel {
+  width: 650px;
+  margin: 0 auto;
+  padding-bottom: 50px
+}
+
+.testimonialSection  .carousel .item {
+  color: #999;
+  font-size: 14px;
+  text-align: center;
+  overflow: hidden;
+  min-height: 340px
+}
+
+.testimonialSection  .carousel .item a {
+  color: #eb7245
+}
+
+.testimonialSection .carousel .img-box {
+  width: 145px;
+  height: 145px;
+  margin: 0 auto;
+  border-radius: 50%
+}
+
+.testimonialSection  .carousel .img-box img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  border-radius: 50%
+}
+
+.testimonialSection  .carousel .testimonial {
+  padding: 30px 0 10px
+}
+
+.testimonialSection .testimonial {
+  color: #000000;
+  font: Times Roman
+}
+
+.testimonialSection  .carousel .overview {
+  text-align: center;
+  padding-bottom: 5px
+}
+
+.testimonialSection  .carousel .overview b {
+  color: #333;
+  font-size: 15px;
+  text-transform: uppercase;
+  display: block;
+  padding-bottom: 5px
+}
+
+.testimonialSection .carousel .star-rating i {
+  font-size: 18px;
+  color: #ffdc12
+}
+
+.testimonialSection  .carousel .carousel-control {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background: #999;
+  text-shadow: none;
+  top: 4px
+}
+
+.testimonialSection  .carousel-control i {
+  font-size: 20px;
+  margin-right: 2px
+}
+
+.testimonialSection  .carousel-control.left {
+  left: auto;
+  right: 40px
+}
+
+.testimonialSection  .carousel-control.right i {
+  margin-right: -2px
+}
+
+.testimonialSection  .carousel .carousel-indicators {
+  bottom: 15px
+}
+
+.testimonialSection  .carousel-indicators li, .carousel-indicators li.active {
+  width: 11px;
+  height: 11px;
+  margin: 1px 5px;
+  border-radius: 50%;
+  border:none;
+}
+
+.testimonialSection  .carousel-indicators li {
+  background: #e2e2e2;
+  border-color: transparent
+}
+
+.testimonialSection  .carousel-indicators li.active {
+  border: none;
+  background: #888
+}
+.productInfo{
+  background: #f2f2f2;
 }
