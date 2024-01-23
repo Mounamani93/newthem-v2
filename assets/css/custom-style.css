@@ -60,6 +60,10 @@
 main.main .navbarTop {
   position: sticky;
 }
+.navbarTop .dropdown-item{
+  padding: 0.5rem 1rem;
+  font-size: 1rem;
+}
 
 .mapDetails .innerMapsec, .mapDetails .innerMapsec iframe {
   height: 350px;
