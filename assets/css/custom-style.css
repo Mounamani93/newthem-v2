@@ -221,6 +221,10 @@ section {
   border: none;
   background: #888
 }
-.productInfo{
-  background: #f2f2f2;
+
+  .productInfo {
+    background: #ecdec3 url(https://startup.info/wp-content/uploads/2022/04/perfect-product-launchjpg.jpg);
+    background-position: right center;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
