@@ -223,7 +223,7 @@ section {
 }
 
   .productInfo {
-    background: #ecdec3 url(https://startup.info/wp-content/uploads/2022/04/perfect-product-launchjpg.jpg);
+    background: #ecdec3 url('/assets/img/services/perfect-product-launch.jpg');
     background-position: right center;
     background-size: contain;
     background-repeat: no-repeat;
