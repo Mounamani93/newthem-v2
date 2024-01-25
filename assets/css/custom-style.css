@@ -319,5 +319,7 @@ section {
   .navbar-light .navbar-brand{
     width: 60%;
   }
-
+  .whychooseusRts{
+    grid-template: repeat(4,1fr)/1fr;
+  }
  }
